@@ -12,7 +12,7 @@ use App\Containers\Payment\Models\PaymentTransaction;
 trait MockablePaymentsTrait
 {
 
-    public function mockPayments()
+ public function mockPayments()
     {
         // Mock Stripe charging
         if (class_exists($chargeWithStripeTask = \App\Containers\Stripe\Tasks\ChargeWithStripeTask::class)) {
@@ -34,6 +34,5 @@ trait MockablePaymentsTrait
                     ])
                  );
         }
-
     }
 }
