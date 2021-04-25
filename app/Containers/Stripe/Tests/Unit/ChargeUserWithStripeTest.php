@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Containers\Srtipe\Tests\Unit;
+namespace App\Containers\Stripe\Tests\Unit;
 
 use App\Containers\Payment\Tasks\AssignPaymentAccountToUserTask;
 use App\Containers\Payment\Traits\MockablePaymentsTrait;
@@ -26,7 +26,7 @@ class ChargeUserWithStripeTest extends TestCase
      */
     public function testChargeUserWithStripe()
     {
-// Mock the payments
+        // Mock the payments
         $this->mockPayments();
 
         // create testing user
@@ -45,5 +45,6 @@ class ChargeUserWithStripeTest extends TestCase
 
         $transaction = $user->charge($account, $amount);
 
-        $this->assertEquals($transaction->gateway, 'Stripe');    }
+        $this->assertEquals($transaction->gateway, 'Stripe');
+    }
 }

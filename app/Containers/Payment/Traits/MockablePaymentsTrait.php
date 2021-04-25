@@ -12,11 +12,11 @@ use App\Containers\Payment\Models\PaymentTransaction;
 trait MockablePaymentsTrait
 {
 
- public function mockPayments()
+    public function mockPayments()
     {
         // Mock Stripe charging
         if (class_exists($chargeWithStripeTask = \App\Containers\Stripe\Tasks\ChargeWithStripeTask::class)) {
-            $this->mock($chargeWithStripeTask)
+            $this->mockIt($chargeWithStripeTask)
                  ->shouldReceive('charge')
                  ->andReturn(new PaymentTransaction([
                         'user_id' => 1,
@@ -34,5 +34,6 @@ trait MockablePaymentsTrait
                     ])
                  );
         }
+
     }
 }
