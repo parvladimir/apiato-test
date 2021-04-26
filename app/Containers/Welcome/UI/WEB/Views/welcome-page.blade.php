@@ -72,7 +72,11 @@
 
     <div class="content">
 
+<<<<<<< HEAD
         <div class="title m-b-md">Apiato</div>
+=======
+        <div class="title m-b-md">Apiato HELLO! ver4</div>
+>>>>>>> 0db3e1d81e91e5b8bb3c1b6fb3b8e88ffb908f85
 
         <div class="links">
             <a href="http://apiato.io/">Documentation</a>
