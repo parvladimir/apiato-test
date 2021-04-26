@@ -33,7 +33,6 @@
     "ext-openssl": "*",
     "ext-pdo": "*",
     "ext-tokenizer": "*",
-    "laravel/framework": "^7.0",
     "doctrine/dbal": "2.5.*",
     "fideloper/proxy": "^4.2",
     "guzzlehttp/guzzle": "^6.3",
@@ -98,6 +97,6 @@
     "preferred-install": "dist",
     "sort-packages": true
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
