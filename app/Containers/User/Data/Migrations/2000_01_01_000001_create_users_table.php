@@ -23,7 +23,6 @@ class CreateUsersTable extends Migration
             $table->string('device')->nullable();
             $table->string('platform')->nullable();
             $table->boolean('is_client')->default(false);
-            $table->boolean('is_active')->default(false);
 
             $table->rememberToken();
             $table->timestamps();
