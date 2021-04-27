@@ -72,7 +72,7 @@
 
     <div class="content">
 
-        <div class="title m-b-md">Apiato test deploy v2</div>
+        <div class="title m-b-md">Apiato test deploy v3</div>
 
         <div class="links">
             <a href="http://apiato.io/">Documentation</a>
