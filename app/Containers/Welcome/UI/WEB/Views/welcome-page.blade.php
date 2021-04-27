@@ -72,7 +72,15 @@
 
     <div class="content">
 
+<<<<<<< HEAD
         <div class="title m-b-md">Apiato test deploy</div>
+=======
+<<<<<<< HEAD
+        <div class="title m-b-md">Apiato</div>
+=======
+        <div class="title m-b-md">Apiato HELLO! ver4</div>
+>>>>>>> 0db3e1d81e91e5b8bb3c1b6fb3b8e88ffb908f85
+>>>>>>> 55888e3cb19dbb4faff16267017e084e5a645f1a
 
         <div class="links">
             <a href="http://apiato.io/">Documentation</a>
