@@ -56,5 +56,5 @@ class GetAllUsersTask extends Task
     {
         $this->repository->pushCriteria(new RoleCriteria($roles));
     }
-
+    //TODO тут потерялся метод action()
 }

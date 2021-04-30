@@ -96,7 +96,7 @@ class Controller extends ApiController
 
         return $this->transform($users, UserTransformer::class);
     }
-
+//TODO Тут потерялся метод getAllActiveUsers()
     /**
      * @param \App\Containers\User\UI\API\Requests\GetAllUsersRequest $request
      *
